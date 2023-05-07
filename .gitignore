@@ -1,0 +1,10 @@
+# Python project files
+/.vscode
+/__pycache__
+
+# Input and output folders
+/input
+/output
+
+# VGMStream library (see README.md to install)
+/vgmstream
