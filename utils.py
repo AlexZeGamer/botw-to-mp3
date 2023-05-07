@@ -6,7 +6,7 @@ try:
 except ImportError:
     has_tkinter = False
 else:
-    has_tkinter = False
+    has_tkinter = True
 
 def select_folder(title=None, initialdir=None):
     if has_tkinter:
