@@ -15,7 +15,9 @@ It is expected that you have legally dumped the game files of your purchased cop
 
 ## Dependencies
 - [Python 3](https://www.python.org/downloads/)
-- Python libraries *(see `requirements.txt`, run `pip install -r requirements.txt` to install)*
+- Python libraries *(run `pip install -r requirements.txt` to install)*
+  - [Tkinter](https://docs.python.org/fr/3/library/tkinter.html) (optional) : Show file/folder dialog
+  - [Progress](https://pypi.org/project/progress/) (optional) : Show a progress bar during process
 - [`vgmstream`](https://vgmstream.org) *(see [Installation](#installation))* - Used to convert the `.bfstm`, `.bfstp` and `.bfwav` music files into `.mp3` files.
 
 ## Credits
@@ -28,7 +30,7 @@ Run `main.py` and select the folder containing the music files you want to extra
 ## TODO :
 - [ ] Refactor `bars_extractor.py` into functions
 - [ ] Implement `bars_extractor.py` into `main.py`
-- [ ] Make tkinter optional
+- [x] Make tkinter optional
 - [x] Find a name for the repo
-  - Nintendo to mp3
-  - BOTW to mp3
+  - ~~Nintendo to mp3~~
+  - BOTW to mp3 ✅
